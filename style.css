@@ -50,6 +50,14 @@ body {
 
 input {
     margin: 0 0 1rem 0;
+    border-radius: 3px;
+    border: 1px solid lightgrey;
+}
+
+input:focus {
+    border: 1px solid blue;
+    outline: none;
+    box-shadow: lightgrey 1px 1px 4px 0px;
 }
 
 #form-color {
