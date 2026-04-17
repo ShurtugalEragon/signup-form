@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#page-container {
+    display: flex;
+    height: 100vh;
+}
+
+#bg-img-container {
+    width: 25%;
+}
+
+#bg-img {
+    width: 100%;
+    height: 100%;
+}
+
+#content-container {
+    opacity: 30%;
+    width: 75%;
+    margin: 15vh 5vw 15vh 5vw;
+}
+
+.input-col {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin: 0 3rem 0 0;
+}
+
+.input-row {
+    display: flex;
+}
+
+input {
+    margin: 0 0 1rem 0;
+}
