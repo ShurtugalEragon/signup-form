@@ -5,11 +5,11 @@ body {
 
 #page-container {
     display: flex;
-    height: 100vh;
 }
 
 #bg-img-container {
     width: 25%;
+    height: 100%;
 }
 
 #bg-img {
@@ -18,9 +18,21 @@ body {
 }
 
 #content-container {
-    opacity: 30%;
     width: 75%;
-    margin: 15vh 5vw 15vh 5vw;
+    /* padding: 15vh 5vw 15vh 5vw; */
+    background-color: #f9fafb;
+}
+
+.content-padding {
+    padding: 0 5vw 0vh 5vw;
+}
+
+#submit-button {
+    margin: 5vh 5vw 0vh 5vw;
+}
+
+#header {
+    margin: 15vh 0 2.5rem 0;
 }
 
 .input-col {
@@ -36,4 +48,22 @@ body {
 
 input {
     margin: 0 0 1rem 0;
+}
+
+#form-color {
+    padding: 1rem 5vw 1rem 5vw;
+    background-color: #ffffff;
+    box-shadow: lightgrey 0px 1px 4px 0px;
+}
+
+p, legend {
+    color: #1d1d1d;
+}
+
+legend {
+    margin: 0 0 1rem 0;
+}
+
+label {
+    font-size: 0.8rem;
 }
