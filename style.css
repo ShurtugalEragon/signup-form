@@ -1,3 +1,8 @@
+@font-face {
+    font-family: norse;
+    src: url(Norse.otf);
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -21,7 +26,6 @@ body {
 
 #content-container {
     width: 75%;
-    /* padding: 15vh 5vw 15vh 5vw; */
     background-color: #f9fafb;
 }
 
@@ -99,6 +103,7 @@ a {
     top: 20%;
     justify-content: center;
     z-index: 1;
+    align-items: center;
 }
 
 #logo-bg {
@@ -118,6 +123,9 @@ a {
 
 #logo-text {
     color: white;
+    font-family: norse;
+    font-size: 4rem;
+    margin: 0;
 }
 
 #img-credit {
