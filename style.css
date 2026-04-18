@@ -44,7 +44,6 @@ body {
 .input-col {
     display: flex;
     flex-direction: column;
-    width: 25%;
     margin: 0 3rem 0 0;
 }
 
@@ -52,16 +51,35 @@ body {
     display: flex;
 }
 
+.input {
+    margin: 0 0 0.6rem 0;
+}
+
 input {
-    margin: 0 0 1rem 0;
     border-radius: 3px;
     border: 1px solid lightgrey;
+    width: 18vw;
 }
 
 input:focus {
     border: 1px solid blue;
     outline: none;
     box-shadow: lightgrey 1px 1px 4px 0px;
+}
+
+input:invalid {
+    border: 1px solid red;
+    outline: none;
+}
+
+.error-msg {
+    display: none;
+    color: red;
+    font-size: 0.8rem;
+}
+
+input:invalid + .error-msg {
+    display: block;
 }
 
 #form-color {
